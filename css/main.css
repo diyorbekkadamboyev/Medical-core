@@ -1,0 +1,136 @@
+/* GENERAL CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    width: 1006px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/********************************************* HEADER ******************************************/
+
+.header {
+    background: #FFF5F0;
+}
+
+.header-wrappr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.header-logo-link:hover {
+    opacity: 0.8;
+}
+
+.header-logo-link:active {
+    opacity: 0.4;
+}
+
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 275px;
+    margin-left: 65px;
+}
+
+
+
+.navbar-link {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    padding: 5px;
+} 
+
+.navbar-link:hover {
+    border-bottom: 3px solid #737373;
+}
+
+.navbar-link:active {
+    color: white;
+    background-color: black;
+    border-bottom: 3px solid black;
+}
+
+.navbar-link + .navbar-link {
+    margin-left: 21px;
+}
+
+.header-link {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1BA0AB;
+    margin-right: 45px;
+ 
+}
+
+.header-btn {
+    margin: 0;
+    background: #1BA0AB;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 20px 0px;
+}
+
+.header-btn:hover {
+    opacity: 0.8;
+}
+
+.header-btn:active {
+    opacity: 0.4;
+}
+
+.header-btn-link {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 15px;
+}

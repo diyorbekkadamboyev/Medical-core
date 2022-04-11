@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
 img {
@@ -139,14 +140,19 @@ img {
 
 /* HERO */
 
+.hero {
+    background: #FFF5F0;
+    background-image: url("../images/Medical-img.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 440px);
+}
+
 .hero-container {
     width: 1163px;
 }
 
-.hero-left::after {
-    content: "";
-    background-image: url("../images/Medical-img.png");
-    background-position:    ;
+.hero-left {
+    padding-bottom: 163px;
 }
 
 .hero-link {
@@ -185,6 +191,10 @@ img {
     margin: 0;
     display: flex;
     align-items: center;
+}
+
+.hero-left {
+    padding-top: 170px;
 }
 
 .hero-link-btn {
@@ -239,6 +249,7 @@ img {
     text-decoration: none;
     padding: 15px 40px;
     margin-left: 10px;
+    border: 2px solid  #1BA0AB;
 }
 
 .hero-link-btn-right:hover {

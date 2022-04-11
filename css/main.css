@@ -134,3 +134,137 @@ img {
     color: #FFFFFF;
     margin-right: 15px;
 }
+
+/*************************************** MAIN ***********************************/
+
+/* HERO */
+
+.hero-container {
+    width: 1163px;
+}
+
+.hero-left::after {
+    content: "";
+    background-image: url("../images/Medical-img.png");
+    background-position:    ;
+}
+
+.hero-link {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1BA0AB;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    color: #252B42;
+    width: 542px;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+    margin-bottom: 30px;
+}
+
+.hero-wrappr {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-link-btn {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #1BA0AB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 40px;
+    border: 2px solid #1BA0AB;
+}
+
+.hero-link-btn:hover {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1BA0AB;
+    background: #1BA0AB;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #1BA0AB;
+    transition: 0.3s;
+}
+
+.hero-link-btn:active {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    background: #1BA0AB;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.hero-link-btn-right {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #1BA0AB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-left: 10px;
+}
+
+.hero-link-btn-right:hover {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1BA0AB;
+    background: #1BA0AB;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #1BA0AB;
+    transition: 0.3s;
+}
+
+.hero-link-btn-right:active {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    background: #1BA0AB;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+

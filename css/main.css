@@ -407,6 +407,123 @@ img {
     justify-content: space-between;
 }
 
+/* REFERENCE */
 
+.best--wrappr {
+    padding-top: 160px;
+    margin-bottom: 96px;
+}
 
+.best__text {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1BA0AB;
+    margin-bottom: 10px;
+}
+
+.best__heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.best__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    width: 469px;
+}
+
+.reference-left {
+    background-image: url("../images/product-cover-233\ sec-.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 209px;
+    height: 378px;
+}
+
+.reference-btn {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E74040;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border: 3px solid  #E74040;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px 20px;
+}
+
+.reference-btn:hover {
+    color:  #E74040;
+    background-color: white;
+    border: 3px solid #E74040;
+}
+
+.reference-like {
+    position: relative;
+    top: 240px;
+    bottom: 10px;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 13px 11px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reference-like:hover {
+    background-color: #1BA0AB;
+
+}
+
+.reference-right-top {
+    display: flex;
+    align-items: center;
+}
+
+.reference-text {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1BA0AB;
+}
+
+.reference-image {
+    margin: 0;
+    margin-left: 45px;
+}
+
+.reference-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.reference-like {
+    margin-left: 35px;
+}
+
+.refernce-likes:active{
+    background-image: url("../images/heart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reference-like + .reference-like {
+    margin-left: 10px;
+}
 

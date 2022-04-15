@@ -162,6 +162,7 @@ img {
     background-image: url("../images/Medical-img.png");
     background-repeat: no-repeat;
     background-position: calc(50% + 440px);
+    margin-bottom: 160px;
 }
 
 .hero-container {
@@ -297,6 +298,16 @@ img {
 
 /* ABOUT */
 
+.about {
+    margin-bottom: 220px;
+}
+
+.about-wrappr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .activity__img {
     padding: 0;
     margin: 0;
@@ -339,6 +350,48 @@ img {
     color: #1BA0AB;
     text-decoration: none;
     margin-right: 10px;
+}
+
+.box-wrappr {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    width: 250px;
+}
+
+.box + .box {
+    margin-left: 15px;
+}
+
+.box__img {
+    margin: 35px 139px 20px 40px;
+}
+
+.box__book {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 24px;
+    color: #252B42;
+    margin: 20px 40px;
+}
+
+.box__image {
+    margin: 20px 40px;
+}
+
+.box__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    padding-left: 40px;
+    padding-bottom: 35px;
 }
 
 

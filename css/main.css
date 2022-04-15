@@ -7,11 +7,23 @@
 body {
     margin: 0;
     padding: 0;
-
+    font-family: 'Montserrat';
 }
 
 img {
     display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .container {
@@ -24,6 +36,10 @@ img {
 
 .header {
     background: #FFF5F0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header-wrappr {
@@ -141,6 +157,7 @@ img {
 /* HERO */
 
 .hero {
+    margin-top: 92px;
     background: #FFF5F0;
     background-image: url("../images/Medical-img.png");
     background-repeat: no-repeat;
@@ -277,5 +294,53 @@ img {
     text-decoration: none;
     opacity: 0.6;
 }
+
+/* ABOUT */
+
+.activity__img {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.activity__heading {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252B42;
+    margin-bottom: 35px;
+}
+
+.activity__desc {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    width: 351px;
+    margin-bottom: 35px;
+}
+
+.activity__wrappr {
+    display: flex;
+    align-items: center;
+}
+
+.activity__link {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1BA0AB;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
 
 
